@@ -8,6 +8,7 @@ document.getElementById('recommend-btn').addEventListener('click', function() {
         showMovies(data);
     });
 });
+
 document.getElementById('random-recommend-btn').addEventListener('click', function() {
     // Sembunyikan opsi untuk memilih genre
     document.getElementById('genre-select').style.display = 'none';
@@ -16,7 +17,8 @@ document.getElementById('random-recommend-btn').addEventListener('click', functi
     .then(response => response.json())
     .then(data => {
         const topRatedMovies = data.filter(movie => movie.Rating === 5); // Filter film-film dengan rating bintang 5
-        showMovies(topRatedMovies);
+        const sortedTopRatedMovies = topRatedMovies.sort((a, b) => b.Year - a.Year); // Urutkan berdasarkan tahun terbaru ke terkecil
+        showMovies(sortedTopRatedMovies);
         // document.getElementById('recommendations').style.display = 'block';
     });
 });
@@ -45,6 +47,18 @@ document.getElementById('genre').addEventListener('change', function() {
             showMovies(sortedMovies);
         });
     }
+});
+
+
+document.getElementById('search-btn').addEventListener('click', function() {
+    // Sembunyikan opsi untuk memilih genre
+    document.getElementById('genre-select').style.display = 'none';
+    
+    fetch('/movies')
+    .then(response => response.json())
+    .then(data => {
+        showMovies(data);
+    });
 });
 
 
