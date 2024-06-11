@@ -66,3 +66,43 @@ button:hover{
 #recommendations {
     margin-top: 20px;
 }
+
+/* CSS for star ratings */
+.star-rating {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    unicode-bidi: bidi-override;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating span {
+    font-size: 25px;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.star-rating span.full {
+    color: gold;
+}
+
+.star-rating span.half {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    color: gold;
+}
+
+/* CSS untuk menampilkan bintang berdasarkan rating */
+.rating-container {
+    display: flex;
+    justify-content: center;
+}
+
+.rating-container span {
+    margin-right: 5px;
+}

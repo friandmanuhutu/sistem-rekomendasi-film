@@ -1,97 +1,97 @@
-Film,Genre,Lead Studio,Year
-Youth in Revolt,Comedy,The Weinstein Company,2010
-You Will Meet a Tall Dark Stranger,Comedy,Independent,2010
-When in Rome,Comedy,Disney,2010
-What Happens in Vegas,Comedy,Fox,2008
-Water For Elephants,Drama,20th Century Fox,2011
-WALL-E,Animation,Disney,2008
-Waitress,Romance,Independent,2007
-Waiting For Forever,Romance,Independent,2011
-Valentine's Day,Comedy,Warner Bros.,2010
-Tyler Perry's Why Did I get Married,Romance,Independent,2007
-Twilight: Breaking Dawn,Romance,Independent,2011
-Twilight,Romance,Summit,2008
-The Ugly Truth,Comedy,Independent,2009
-The Twilight Saga: New Moon,Drama,Summit,2009
-The Time Traveler's Wife,Drama,Paramount,2009
-The Proposal,Comedy,Disney,2009
-The Invention of Lying,Comedy,Warner Bros.,2009
-The Heartbreak Kid,Comedy,Paramount,2007
-The Duchess,Drama,Paramount,2008
-The Curious Case of Benjamin Button,Fantasy,Warner Bros.,2008
-The Back-up Plan,Comedy,CBS,2010
-Tangled,Animation,Disney,2010
-Something Borrowed,Romance,Independent,2011
-She's Out of My League,Comedy,Paramount,2010
-Sex and the City Two,Comedy,Warner Bros.,2010
-Sex and the City 2,Comedy,Warner Bros.,2010
-Sex and the City,Comedy,Warner Bros.,2008
-Remember Me,Drama,Summit,2010
-Rachel Getting Married,Drama,Independent,2008
-Penelope,Comedy,Summit,2008
-P.S. I Love You,Romance,Independent,2007
-Over Her Dead Body,Comedy,New Line,2008
-Our Family Wedding,Comedy,Independent,2010
-One Day,Romance,Independent,2011
-Not Easily Broken,Drama,Independent,2009
-No Reservations,Comedy,Warner Bros.,2007
-Nick and Norah's Infinite Playlist,Comedy,Sony,2008
-New Year's Eve,Romance,Warner Bros.,2011
-My Week with Marilyn,Drama,The Weinstein Company,2011
-Music and Lyrics,Romance,Warner Bros.,2007
-Monte Carlo,Romance,20th Century Fox,2011
-Miss Pettigrew Lives for a Day,Comedy,Independent,2008
-Midnight in Paris,Romence,Sony,2011
-Marley and Me,Comedy,Fox,2008
-Mamma Mia!,Comedy,Universal,2008
-Mamma Mia!,Comedy,Universal,2008
-Made of Honor,Comdy,Sony,2008
-Love Happens,Drama,Universal,2009
-Love & Other Drugs,Comedy,Fox,2010
-Life as We Know It,Comedy,Independent,2010
-License to Wed,Comedy,Warner Bros.,2007
-Letters to Juliet,Comedy,Summit,2010
-Leap Year,Comedy,Universal,2010
-Knocked Up,Comedy,Universal,2007
-Killers,Action,Lionsgate,2010
-Just Wright,Comedy,Fox,2010
-Jane Eyre,Romance,Universal,2011
-It's Complicated,Comedy,Universal,2009
-I Love You Phillip Morris,Comedy,Independent,2010
-High School Musical 3: Senior Year,Comedy,Disney,2008
-He's Just Not That Into You,Comedy,Warner Bros.,2009
-Good Luck Chuck,Comedy,Lionsgate,2007
-Going the Distance,Comedy,Warner Bros.,2010
-Gnomeo and Juliet,Animation,Disney,2011
-Gnomeo and Juliet,Animation,Disney,2011
-Ghosts of Girlfriends Past,Comedy,Warner Bros.,2009
-Four Christmases,Comedy,Warner Bros.,2008
-Fireproof,Drama,Independent,2008
-Enchanted,Comedy,Disney,2007
-Dear John,Drama,Sony,2010
-Beginners,Comedy,Independent,2011
-Across the Universe,romance,Independent,2007
-A Serious Man,Drama,Universal,2009
-A Dangerous Method,Drama,Independent,2011
-27 Dresses,Comedy,Fox,2008
-(500) Days of Summer,comedy,Fox,2009
-The Shining,Horror,Warner Bros.,1980
-Die Hard with a Vengeance,Action,20th Century Fox,1995
-Gone Girl,Thriller,20th Century Fox,2014
-Inception,Sci-Fi,Warner Bros.,2010
-Harry Potter and the Chamber of Secrets,Fantasy,Warner Bros.,2002
-Zodiac,Mystery,Paramount,2007
-Jurassic Park,Adventure,Universal,1993
-The Godfather: Part II,Crime,Paramount,1974
-Platoon,War,Orion Pictures,1986
-Django Unchained,Western,The Weinstein Company,2012
-The Exorcist,Horror,Warner Bros.,1973
-Die Hard,Action,20th Century Fox,1988
-The Silence of the Lambs,Thriller,Orion Pictures,1991
-The Matrix,Sci-Fi,Warner Bros.,1999
-Harry Potter and the Sorcerer's Stone,Fantasy,Warner Bros.,2001
-Se7en,Mystery,New Line Cinema,1995
-Indiana Jones and the Raiders of the Lost Ark,Adventure,Paramount,1981
-The Godfather,Crime,Paramount,1972
-Saving Private Ryan,War,Paramount,1998
-Unforgiven,Western,Warner Bros.,1992
+Film,Genre,Lead Studio,Year,Rating
+Youth in Revolt,Comedy,The Weinstein Company,2010,4
+You Will Meet a Tall Dark Stranger,Comedy,Independent,2010,2
+When in Rome,Comedy,Disney,2010,5
+What Happens in Vegas,Comedy,Fox,2008,3
+Water For Elephants,Drama,20th Century Fox,2011,1
+WALL-E,Animation,Disney,2008,4
+Waitress,Romance,Independent,2007,3
+Waiting For Forever,Romance,Independent,2011,5
+Valentine's Day,Comedy,Warner Bros.,2010,2
+Tyler Perry's Why Did I get Married,Romance,Independent,2007,4
+Twilight: Breaking Dawn,Romance,Independent,2011,3
+Twilight,Romance,Summit,2008,5
+The Ugly Truth,Comedy,Independent,2009,3
+The Twilight Saga: New Moon,Drama,Summit,2009,2
+The Time Traveler's Wife,Drama,Paramount,2009,4
+The Proposal,Comedy,Disney,2009,1
+The Invention of Lying,Comedy,Warner Bros.,2009,4
+The Heartbreak Kid,Comedy,Paramount,2007,2
+The Duchess,Drama,Paramount,2008,5
+The Curious Case of Benjamin Button,Fantasy,Warner Bros.,2008,3
+The Back-up Plan,Comedy,CBS,2010,5
+Tangled,Animation,Disney,2010,2
+Something Borrowed,Romance,Independent,2011,4
+She's Out of My League,Comedy,Paramount,2010,1
+Sex and the City Two,Comedy,Warner Bros.,2010,4
+Sex and the City 2,Comedy,Warner Bros.,2010,3
+Sex and the City,Comedy,Warner Bros.,2008,4
+Remember Me,Drama,Summit,2010,2
+Rachel Getting Married,Drama,Independent,2008,5
+Penelope,Comedy,Summit,2008,3
+P.S. I Love You,Romance,Independent,2007,4
+Over Her Dead Body,Comedy,New Line,2008,2
+Our Family Wedding,Comedy,Independent,2010,1
+One Day,Romance,Independent,2011,4
+Not Easily Broken,Drama,Independent,2009,5
+No Reservations,Comedy,Warner Bros.,2007,3
+Nick and Norah's Infinite Playlist,Comedy,Sony,2008,4
+New Year's Eve,Romance,Warner Bros.,2011,5
+My Week with Marilyn,Drama,The Weinstein Company,2011,3
+Music and Lyrics,Romance,Warner Bros.,2007,2
+Monte Carlo,Romance,20th Century Fox,2011,4
+Miss Pettigrew Lives for a Day,Comedy,Independent,2008,1
+Midnight in Paris,Romance,Sony,2011,3
+Marley and Me,Comedy,Fox,2008,5
+Mamma Mia!,Comedy,Universal,2008,3
+Mamma Mia!,Comedy,Universal,2008,2
+Made of Honor,Comdy,Sony,2008,4
+Love Happens,Drama,Universal,2009,1
+Love & Other Drugs,Comedy,Fox,2010,3
+Life as We Know It,Comedy,Independent,2010,2
+License to Wed,Comedy,Warner Bros.,2007,3
+Letters to Juliet,Comedy,Summit,2010,4
+Leap Year,Comedy,Universal,2010,1
+Knocked Up,Comedy,Universal,2007,2
+Killers,Action,Lionsgate,2010,3
+Just Wright,Comedy,Fox,2010,4
+Jane Eyre,Romance,Universal,2011,3
+It's Complicated,Comedy,Universal,2009,4
+I Love You Phillip Morris,Comedy,Independent,2010,5
+High School Musical 3: Senior Year,Comedy,Disney,2008,2
+He's Just Not That Into You,Comedy,Warner Bros.,2009,3
+Good Luck Chuck,Comedy,Lionsgate,2007,4
+Going the Distance,Comedy,Warner Bros.,2010,3
+Gnomeo and Juliet,Animation,Disney,2011,2
+Gnomeo and Juliet,Animation,Disney,2011,3
+Ghosts of Girlfriends Past,Comedy,Warner Bros.,2009,4
+Four Christmases,Comedy,Warner Bros.,2008,5
+Fireproof,Drama,Independent,2008,1
+Enchanted,Comedy,Disney,2007,3
+Dear John,Drama,Sony,2010,5
+Beginners,Comedy,Independent,2011,3
+Across the Universe,Romance,Independent,2007,4
+A Serious Man,Drama,Universal,2009,1
+A Dangerous Method,Drama,Independent,2011,4
+27 Dresses,Comedy,Fox,2008,2
+(500) Days of Summer,Comedy,Fox,2009,4
+The Shining,Horror,Warner Bros.,1980,3
+Die Hard with a Vengeance,Action,20th Century Fox,1995,5
+Gone Girl,Thriller,20th Century Fox,2014,4
+Inception,Sci-Fi,Warner Bros.,2010,3
+Harry Potter and the Chamber of Secrets,Fantasy,Warner Bros.,2002,2
+Zodiac,Mystery,Paramount,2007,5
+Jurassic Park,Adventure,Universal,1993,1
+The Godfather: Part II,Crime,Paramount,1974,4
+Platoon,War,Orion Pictures,1986,5
+Django Unchained,Western,The Weinstein Company,2012,4
+The Exorcist,Horror,Warner Bros.,1973,1
+Die Hard,Action,20th Century Fox,1988,5
+The Silence of the Lambs,Thriller,Orion Pictures,1991,4
+The Matrix,Sci-Fi,Warner Bros.,1999,1
+Harry Potter and the Sorcerer's Stone,Fantasy,Warner Bros.,2001,2
+Se7en,Mystery,New Line Cinema,1995,3
+Indiana Jones and the Raiders of the Lost Ark,Adventure,Paramount,1981,4
+The Godfather,Crime,Paramount,1972,2
+Saving Private Ryan,War,Paramount,1998,3
+Unforgiven,Western,Warner Bros.,1992,3

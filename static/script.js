@@ -1,7 +1,13 @@
 document.getElementById('recommend-btn').addEventListener('click', function() {
+    // Sembunyikan opsi untuk memilih genre
     document.getElementById('genre-select').style.display = 'block';
+    
+    fetch('/movies')
+    .then(response => response.json())
+    .then(data => {
+        showMovies(data);
+    });
 });
-
 document.getElementById('random-recommend-btn').addEventListener('click', function() {
     // Sembunyikan opsi untuk memilih genre
     document.getElementById('genre-select').style.display = 'none';
@@ -9,27 +15,38 @@ document.getElementById('random-recommend-btn').addEventListener('click', functi
     fetch('/movies')
     .then(response => response.json())
     .then(data => {
-        const randomMovies = getRandomMovies(data, 5); // Mengambil 5 film secara acak
-        showMovies(randomMovies);
+        const topRatedMovies = data.filter(movie => movie.Rating === 5); // Filter film-film dengan rating bintang 5
+        showMovies(topRatedMovies);
         // document.getElementById('recommendations').style.display = 'block';
     });
 });
 
+
 document.getElementById('genre').addEventListener('change', function() {
     const selectedGenre = this.value;
-    fetch('/recommend', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: `genre=${selectedGenre}`,
-    })
-    .then(response => response.json())
-    .then(data => {
-        showMovies(data);
-        // document.getElementById('recommendations').style.display = 'block';
-    });
+    if (selectedGenre === 'Semua') {
+        fetch('/movies')
+        .then(response => response.json())
+        .then(data => {
+            showMovies(data);
+        });
+    } else {
+        fetch('/recommend', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `genre=${selectedGenre}`,
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Urutkan film secara descending berdasarkan rating
+            const sortedMovies = data.sort((a, b) => b.Rating - a.Rating);
+            showMovies(sortedMovies);
+        });
+    }
 });
+
 
 // Fungsi untuk menampilkan film
 function showMovies(movies) {
@@ -43,6 +60,9 @@ function showMovies(movies) {
             <p>Genre: ${movie.Genre}</p>
             <p>Studio: ${movie['Lead Studio']}</p>
             <p>Year: ${movie.Year}</p>
+            <div class="rating-container">
+                ${getStarRating(movie.Rating)}
+            </div>
         `;
         moviesContainer.appendChild(card);
     });
@@ -61,6 +81,23 @@ function getRandomMovies(movies, num) {
         }
     }
     return randomMovies;
+}
+
+// Fungsi untuk mendapatkan tampilan bintang rating berdasarkan jumlah bintang
+function getStarRating(rating) {
+    const roundedRating = Math.round(rating);
+    let starsHTML = '';
+    for (let i = 0; i < roundedRating; i++) {
+        starsHTML += '<span class="full">&#9733;</span>';
+    }
+    if (rating > roundedRating) {
+        starsHTML += '<span class="half">&#9733;</span>';
+    }
+    const remainingStars = 5 - Math.ceil(rating);
+    for (let i = 0; i < remainingStars; i++) {
+        starsHTML += '<span>&#9734;</span>';
+    }
+    return starsHTML;
 }
 
 // Ambil data film saat halaman dimuat
